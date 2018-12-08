@@ -1,17 +1,17 @@
 <template lang='pug'>
-  section
-    main
-      .workout(
-        v-for='(route, i) in routes'
-        :style='routeStyle(i)'
-        data-aos='slide-up'
-        data-aos-duration='500'
-      )
-        canvas.workout--inner(width='256' height='256' :data-workout-index='i' ref='canvas')
-    footer
-      img(v-lazy='"https://media.tenor.com/images/e8e4f4dea816af59642ee677120ca0bc/tenor.gif"')
-      h2 the end
-      p 👋
+section
+  main
+    .workout(
+      v-for='(route, i) in routes'
+      :style='routeStyle(i)'
+      data-aos='slide-up'
+      data-aos-duration='500'
+    )
+      canvas.workout--inner(width='256' height='256' :data-workout-index='i' ref='canvas')
+  footer
+    img(v-lazy='"https://media.tenor.com/images/e8e4f4dea816af59642ee677120ca0bc/tenor.gif"')
+    h2 the end
+    p 👋
 </template>
 
 <script>
@@ -25,8 +25,8 @@ export default {
     }
   },
   asyncData() {
+    // Randomize order of dem routes 🎲
     return {
-      // Randomize order of dem routes 🎲
       routes: shuffle(require('~/_processed/routeData.json'))
     }
   },
