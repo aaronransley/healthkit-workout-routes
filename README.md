@@ -32,4 +32,4 @@ None of the included code will _ever_ upload your HealthKit or GPS data to any l
 
 ## More information
 
-* Feel free to direct question to the issues section or hit me up on Twitter [@aaronransley](http://twitter.com/aaronransley) 👋
+* Feel free to direct questions to the issues section or hit me up on Twitter [@aaronransley](http://twitter.com/aaronransley) 👋
