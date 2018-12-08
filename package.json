@@ -1,0 +1,26 @@
+{
+  "name": "healthkit-workout-routes",
+  "version": "0.0.1",
+  "description": "Apple HealthKit XML -> GPS routes on HTML 5 canvas. An experiment in data viz",
+  "author": "@aaronransley",
+  "license": "GPL-3.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "process": "node ./_raw/process.js"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "libxmljs": "^0.19.5",
+    "lodash": "^4.17.11",
+    "nuxt": "^2.3.4",
+    "vue-lazyload": "^1.2.6",
+    "node-sass": "^4.10.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
